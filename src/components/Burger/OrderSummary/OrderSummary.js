@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Aux from '../../../hoc/Aux';
+import Aux from '../../../hoc/Auxillary/Auxillary';
 import Button from '../../UI/Button/Button';
 
 const orderSummary = (props) => {
@@ -11,8 +11,6 @@ const orderSummary = (props) => {
                     <span style={{textTransform: 'capitalize'}}>{igKey}</span> : {props.ingredients[igKey]}
                 </li>);
     });
-
-
 
     return(
         <Aux>
